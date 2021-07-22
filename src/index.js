@@ -14,7 +14,7 @@ const server = new ApolloServer({
   },
 });
 
-server.listen().then(() => {
+server.listen({ port: process.env.PORT || 4000 }).then(() => {
   console.log(`
     🚀  Server is running!
     🔉  Listening on port 4000
