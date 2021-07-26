@@ -63,7 +63,7 @@ const typeDefs = gql`
     id: ID!
     "The module's title"
     title: String!
-    "The module's length in minutes"
+    "The module's length in seconds"
     length: Int @deprecated(reason: "Use durationInSeconds")
     "The module's full video duration, in seconds"
     durationInSeconds: Int
