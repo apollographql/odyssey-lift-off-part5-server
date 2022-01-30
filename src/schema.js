@@ -37,7 +37,10 @@ const typeDefs = gql`
     thumbnail: String
     "The track's approximate length to complete, in minutes"
     length: Int
+    "The track's full duration, in seconds"
+durationInSeconds: Int
     "The number of modules this track contains"
+    "The track
     modulesCount: Int
     "The track's complete description, can be in markdown format"
     description: String
@@ -63,6 +66,8 @@ const typeDefs = gql`
     title: String!
     "The module's length in minutes"
     length: Int
+    "The module's video duration, in seconds"
+durationInSeconds: Int
     "The module's text-based description, can be in markdown format. In case of a video, it will be the enriched transcript"
     content: String
     "The module's video url, for video-based modules"
