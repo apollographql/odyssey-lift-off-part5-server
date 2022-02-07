@@ -28,3 +28,5 @@ git checkout final
 ## Getting Help
 
 For any issues or problems concerning the course content, please refer to the [Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey).
+
+----
