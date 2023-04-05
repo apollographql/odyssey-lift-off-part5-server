@@ -8,9 +8,10 @@
     "dev": "nodemon src/index"
   },
   "dependencies": {
-    "apollo-datasource-rest": "^0.11.0",
-    "apollo-server": "^3.0.0",
-    "graphql": "^15.5.1"
+    "@apollo/datasource-rest": "^4.3.2",
+    "@apollo/server": "^4.0.1",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
